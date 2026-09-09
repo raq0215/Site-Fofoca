@@ -1,53 +1,280 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-  
-    <!-- SEO Básico-->
-     <meta 
-     name="description"
-     content="Site de entretenimento criado para reunir as principais novidades sobre celebridades em um só lugar.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-     <title> 💖 Fofoca News</title>
-     <script src="script.js" defer></script> 
+    <title>Melanie Gossip</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <!-- Comentario -->
-     <header>
 
-        <h1>Melaine Martinez</h1>
+    <!-- CABEÇALHO -->
+    <header class="header">
 
-        <p class="cargo">Principal fofoca informativa do dia!</p>
+        <div class="logo">
+            <span>✦</span>
+            MELANIE GOSSIP
+            <span>✦</span>
+        </div>
 
-        <!-- Menu -->
-         <nav>
-            <a href="#hero">Início</a>
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#fofocas">Fofocas</a>
+            <a href="#novidades">Novidades</a>
             <a href="#sobre">Sobre</a>
-            <a href="#habilidades">Habilidades</a>
-            <a href="#projetos">Projetos</a>
-            <a href="#contato">Contato</a>
-        
-         </nav>
+        </nav>
+
     </header>
 
-     <main>
 
-        <!-- Hero -->
-         <section id="hero">
-            <h2>Melaine Martinez</h2>
+    <!-- DESTAQUE -->
+    <main>
 
-            <img src="imagem/melaine.jpg" width="250" height="250">
-            
-               <p>
-                informação sobre a celebridade
+        <section class="hero" id="inicio">
 
-               </p>
+            <div class="hero-content">
 
-         </section>
+                <p class="mini-title">
+                    🩷 O MUNDO DA MELANIE MARTINEZ
+                </p>
+
+                <h1>
+                    Tudo o que está<br>
+                    <span>bombando!</span>
+                </h1>
+
+                <p class="hero-text">
+                    Notícias, rumores, novidades e tudo que está
+                    acontecendo no universo da Melanie Martinez.
+                </p>
+
+                <a href="#fofocas" class="button">
+                    VER FOFOCAS
+                </a>
+
+            </div>
+
+            <div class="hero-decoration">
+                ♡
+            </div>
+
+        </section>
+
+
+        <!-- ÁREA DE FOFOCAS -->
+        <section class="gossip-section" id="fofocas">
+
+            <div class="section-title">
+
+                <p>💋 HOT NEWS</p>
+
+                <h2>
+                    Últimas fofocas
+                </h2>
+
+            </div>
+
+
+            <!-- BUSCA -->
+            <div class="search-box">
+
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="🔎 Procurar uma fofoca..."
+                >
+
+            </div>
+
+
+            <!-- CARDS -->
+            <div class="gossip-grid" id="gossipContainer">
+
+
+                <!-- FOFOCA 1 -->
+                <article class="gossip-card">
+
+                    <div class="card-image">
+                        <span>🍼</span>
+                    </div>
+
+                    <div class="card-content">
+
+                        <span class="category">
+                            RUMOR
+                        </span>
+
+                        <h3>
+                            Timothy Heller 2017
+                        </h3>
+
+                        <p>
+                            Dezembro de 2017 — A cantora Timothy Heller, ex-amiga de Melanie Martinez, 
+                            acusou publicamente Melanie de agressão sexual. 
+                            Heller afirmou que os acontecimentos teriam ocorrido anos antes, 
+                            durante o período em que as duas mantinham uma amizade próxima.
+                            
+                        </p>
+
+                        <div class="card-footer">
+                            <span>25/07/2015</span>
+
+                            <a href="fofoca-timothy.html" class="ler-mais">
+                                Ler mais →
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- FOFOCA 2 -->
+                <article class="gossip-card">
+
+                    <div class="card-image">
+                        <span>🌿</span>
+                    </div>
+
+                    <div class="card-content">
+
+                        <span class="category">
+                            COPIAS
+                        </span>
+
+                        <h3>
+                            Björk 2023
+                        </h3>
+
+                        <p>
+                             Melanie Martinez e as acusações de “copiar” Björk
+
+                            Quando Melanie começou a divulgar o álbum Portals, algumas pessoas nas redes sociais passaram a comparar sua nova estética
+                             com trabalhos da cantora islandesa Björk.
+                        </p>
+
+                        <div class="card-footer">
+                            <span>22/02/2023</span>
+
+                            <a href="fofoca-bjork.html" class="ler-mais">
+                                Ler mais →
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- FOFOCA 3 -->
+                <article class="gossip-card">
+
+                    <div class="card-image">
+                        <span>🩰</span>
+                    </div>
+
+                    <div class="card-content">
+
+                        <span class="category">
+                            EXCLUSIVO
+                        </span>
+
+                        <h3>
+                            HADES 2026
+                        </h3>
+
+                        <p>
+                            Antes e depois do lançamento, HADES foi apresentado com uma narrativa envolvendo a personagem Circle e o universo Hades Tech. Porém, 
+                            depois que o álbum foi lançado em 27 de março de 2026, muitos fãs começaram a comentar que várias músicas pareciam seguir temas sociais e pessoais, 
+                            enquanto o storybook apresentava uma história diferente e mais específica.
+                        </p>
+
+                        <div class="card-footer">
+                            <span>27/03/2026</span>
+
+                            <a href="fofoca-hades.html" class="ler-mais">
+                                Ler mais →
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- BANNER -->
+        <section class="banner" id="novidades">
+
+            <div>
+
+                <p>🩷 MELANIE MARTINEZ</p>
+
+                <h2>
+                    Stay tuned...
+                </h2>
+
+                <span>
+                    As novidades mais recentes podem aparecer aqui.
+                </span>
+
+            </div>
+
+        </section>
+
+
+        <!-- SOBRE -->
+        <section class="about" id="sobre">
+
+            <div class="about-box">
+
+                <p>ABOUT US</p>
+
+                <h2>
+                    Bem-vindo ao Melanie Gossip 💗
+                </h2>
+
+                <p>
+                    Um espaço criado para reunir novidades,
+                    notícias, rumores e curiosidades sobre
+                    Melanie Martinez.
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- RODAPÉ -->
+    <footer>
+
+        <div class="footer-logo">
+            ✦ MELANIE GOSSIP ✦
+        </div>
+
+        <p>
+            Feito com 🩷 para os fãs de Melanie Martinez.
+        </p>
+
+        <span>
+            © 2026 Melanie Gossip
+        </span>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
